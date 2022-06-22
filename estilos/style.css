@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+header {
+  background-color: #C8D5B9;
+  padding: 20px;
+}
+header nav {
+  width: 60%;
+  margin: 0 auto;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+header nav ul li {
+  list-style-type: none;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 500;
+  padding: 20px;
+}
+
+.containerTitulo {
+  background-color: #9CD1CE;
+  font-size: 20px;
+  font-weight: 20px;
+  margin: 20px;
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+.redesimg {
+  width: 5%;
+  display: flex;
+}
+
+footer {
+  background-color: #C8D5B9;
+  height: 50px;
+}
+footer p {
+  font-size: 20px;
+  padding-left: 50px;
+}
+
+.cards {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin: 100px auto;
+}
+.cards .card {
+  border: 2px solid black;
+  background-color: white;
+  text-align: center;
+  width: 330px;
+  border-radius: 10px;
+}
+
+.contacto {
+  background-color: #9DD1B9;
+}
+
+.nosotros {
+  font-size: x-large;
+  font-weight: 400;
+  background-color: #EBE1BF;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px;
+}/*# sourceMappingURL=style.css.map */

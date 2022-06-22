@@ -1,0 +1,16 @@
+.cards {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin: 100px auto;
+    .card {
+        border: 2px solid black;
+        background-color: white;
+        text-align: center;
+        width: 330px;
+        border-radius: 10px;
+    }
+}

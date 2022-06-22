@@ -1,0 +1,23 @@
+header {
+    background-color: $color;
+    padding: 20px;
+     nav{
+        width: 60%;
+        margin: 0 auto;
+         ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+             li {
+                list-style-type: none;
+                text-transform: capitalize;
+                font-weight: 400;
+                a{
+                    text-decoration: none;
+                    color:black
+                }
+            }
+            
+        }
+     }
+}
