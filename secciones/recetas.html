@@ -16,87 +16,105 @@
 <body>
     <header class="container-fluid">
         <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../secciones/recetas.html">Recetas</a></li>
-                <li><a href="../secciones/favoritos.html">Favoritos</a></li>
-                <li><a href="../secciones/nosotros.html">Nosotros</a></li>
-                <li><a href="../secciones/contacto.html">Contacto</a></li>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="recetas.html">Recetas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="favoritos.html">Favoritos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
             </ul>
         </nav>
     </header>
-  <main>
-    <section class="container-fluid">
-
-    <h2>Recetas mas buscadas</h2>
-
-        <div class="cards">
-            <div class="card">
-                <figure class="cardImg">
-                    <img class="img" src="../img/recetasImg/empanadas.jpg" alt="empanadas">
-                </figure>
-                <div>
-                    <h3>Empanadas cortadas a cuchillo</h3>
-                    <p>Aprende a preparar Empanadas de carne cortada a cuchillo con esta rica y fácil receta.</p>
-                </div>
+    <main>
+        <section class="container-fluid">
+           <div class="container-fluid tituloRecetas">
+                <form class="d-flex">
+                    <h2 >¿Que quieres comer?</h2>
+                  <input class="form-control me" type="search" placeholder="Buscador recetas" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Go</button>
+                </form>
             </div>
 
-            <div class="card">
-                <figure class="cardImg">
-                    <img class="img" src="../img/recetasImg/ribs.jpg" alt="Ribs a la bbq">
-                </figure>
-                <div>
-                    <h3>Ribs de cerdo a la BBQ</h3>
-                    <p> Te enseñamos a preparar de manera sencilla la receta definitiva de costillas de cerdo, mas conocidas como BBQ Ribs.</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <figure class="cardImg">
-                    <img class="img" src="../img/recetasImg/paella.jpg" alt="Paella">
-                </figure>
-                <div>
-                    <h3>Paella con frutos de mar</h3>
-                    <p>Conocé cómo hacer una exquisita paella de mariscos con la mejor selección de las hierbas, especias y condimentos.</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <figure class="cardImg">
-                    <img class="img" src="../img/recetasImg/lasaña.jpg" alt="Lasagna">
-                </figure>
-                <div>
-                    <h3>Lasagna</h3>
-                    <p>Auténtica lasagna boloñesa. Cocinada con tiempo y cariño, con su carne bien hecha, la bechamel muy cremosa y la salsa boloñesa.</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <figure class="cardImg">
-                    <img class="img" src="../img/recetasImg/Ensalada-cesar.jpg" alt="Paella">
-                </figure>
-                <div>
-                    <h3>Ensalada Caesar</h3>
-                    <p>Una ensalada de lechuga romana y croûtons, con jugo de limón, aceite de oliva, huevo, salsa Worcestershire.</p>
+            <div class="cards">
+                <div class="card">
+                    <figure class="cardImg">
+                        <img class="img" src="../img/empanadas.jpg" alt="empanadas">
+                    </figure>
+                    <div>
+                        <h3>Empanadas cortadas a cuchillo</h3>
+                        <p>Aprende a preparar Empanadas de carne cortada a cuchillo con esta rica y fácil receta.</p>
+                    </div>
                 </div>
 
+                <div class="card">
+                    <figure class="cardImg">
+                        <img class="img" src="../img/ribs.jpg" alt="Ribs a la bbq">
+                    </figure>
+                    <div>
+                        <h3>Ribs de cerdo a la BBQ</h3>
+                        <p> Te enseñamos a preparar de manera sencilla la receta definitiva de costillas de cerdo, mas
+                            conocidas como BBQ Ribs.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <figure class="cardImg">
+                        <img class="img" src="../img/paella.jpg" alt="Paella">
+                    </figure>
+                    <div>
+                        <h3>Paella con frutos de mar</h3>
+                        <p>Conocé cómo hacer una exquisita paella de mariscos con la mejor selección de las hierbas,
+                            especias y condimentos.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <figure class="cardImg">
+                        <img class="img" src="../img/lasaña.jpg" alt="Lasagna">
+                    </figure>
+                    <div>
+                        <h3>Lasagna</h3>
+                        <p>Auténtica lasagna boloñesa. Cocinada con tiempo y cariño, con su carne bien hecha, la
+                            bechamel muy cremosa y la salsa boloñesa.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <figure class="cardImg">
+                        <img class="img" src="../img/Ensalada-cesar.jpg" alt="Paella">
+                    </figure>
+                    <div>
+                        <h3>Ensalada Caesar</h3>
+                        <p>Una ensalada de lechuga romana y croûtons, con jugo de limón, aceite de oliva, huevo, salsa
+                            Worcestershire.</p>
+                    </div>
+
+                </div>
             </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>Recetario &copy;</p>
         </div>
-    </section>
+    </footer>
 
-</main>
-<footer>
-    <div class="footer">
-        <p>Recetario &copy;</p>
-    </div>
-</footer>
-
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
-    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous">
-</script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

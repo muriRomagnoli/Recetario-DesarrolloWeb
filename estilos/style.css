@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Nunito:ital,wght@0,200;0,400;1,200&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -5,44 +6,22 @@
 
 html {
   font-size: 62%;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 header {
-  background-color: #C8D5B9;
+  background-color: #DEE2FF;
+  margin: 0px;
   padding: 20px;
 }
-header nav {
-  width: 60%;
-  margin: 0 auto;
-}
-header nav ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-header nav ul li {
-  list-style-type: none;
-  text-transform: capitalize;
-  font-weight: 400;
-}
-header nav ul li a {
-  text-decoration: none;
+header .nav-link {
   color: black;
+  font-size: small;
 }
 
-h1 {
-  font-size: 40px;
-  font-weight: 500;
-  padding: 20px;
-}
-
-.containerTitulo {
-  background-color: #9CD1CE;
-  font-size: 20px;
-  font-weight: 20px;
-  margin: 20px;
-  padding: 10px;
+.tituloHome {
+  background-color: #FEEAFA;
+  margin: 10px;
+  padding: 25px;
 }
 
 img {
@@ -60,12 +39,18 @@ img {
 }
 
 footer {
-  background-color: #C8D5B9;
+  background-color: #DEE2FF;
   height: 50px;
 }
 footer p {
   font-size: 20px;
   padding-left: 50px;
+}
+
+.tituloRecetas {
+  background-color: #FEEAFA;
+  margin: 20px;
+  padding: 20px;
 }
 
 .cards {
@@ -86,55 +71,14 @@ footer p {
 }
 
 .contacto {
-  background-color: #9DD1B9;
+  background-color: #FEEAFA;
 }
 
 .nosotros {
-  font-size: x-large;
+  font-size: large;
   font-weight: 400;
-  background-color: #EBE1BF;
+  background-color: #CBC0D3;
   padding: 20px;
   margin: 20px;
   border-radius: 15px;
-}
-
-.btn--twitter {
-  background-color: #55aCee;
-}
-
-.btn--facebook {
-  background-color: #3a5795;
-}
-
-.btn--instagram {
-  background-color: #C25E30;
-}
-
-.mixin {
-  height: 50px;
-  width: 1300px;
-  background-color: rgb(195, 241, 226);
-}
-
-.extend, .extend_recetas, .extend_nuevas, .extend_aprende {
-  border: 2px solid black;
-  background-color: #9CD1CE;
-}
-
-.extend_aprende {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: white;
-  border-radius: 5px;
-}
-
-.extend_nuevas {
-  font-size: 30px;
-  color: rgb(221, 231, 221);
-  border: 3px dashed rgb(147, 203, 207);
-}
-
-.extend_recetas {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: white;
-  border-radius: 5px;
 }/*# sourceMappingURL=style.css.map */
