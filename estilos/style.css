@@ -9,19 +9,41 @@ html {
 }
 
 header {
-  background-color: #DEE2FF;
+  background-color: #FFC43D;
   margin: 0px;
   padding: 20px;
 }
 header .nav-link {
   color: black;
   font-size: small;
+  font-weight: 400;
 }
 
-.tituloHome {
-  background-color: #FEEAFA;
-  margin: 10px;
-  padding: 25px;
+.container-fondoimg {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/fondonosotros.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+
+.titulo-home {
+  font-size: 5rem;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 100px;
+}
+
+.texto-home {
+  font-size: 3rem;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 30px;
 }
 
 img {
@@ -33,13 +55,8 @@ img {
   justify-content: space-evenly;
 }
 
-.redesimg {
-  width: 100%;
-  padding: 10px;
-}
-
 footer {
-  background-color: #DEE2FF;
+  background-color: #FFC43D;
   height: 50px;
 }
 footer p {
@@ -48,7 +65,7 @@ footer p {
 }
 
 .tituloRecetas {
-  background-color: #FEEAFA;
+  background-color: #F8FFE5;
   margin: 20px;
   padding: 20px;
 }
@@ -71,13 +88,13 @@ footer p {
 }
 
 .contacto {
-  background-color: #FEEAFA;
+  background-color: #F8FFE5;
 }
 
 .nosotros {
   font-size: large;
   font-weight: 400;
-  background-color: #CBC0D3;
+  background-color: #FFC43D;
   padding: 20px;
   margin: 20px;
   border-radius: 15px;

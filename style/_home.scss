@@ -1,6 +1,25 @@
-.tituloHome{
-    background-color: $color-dos;
-    margin: 10px;
-    padding: 25px;
+.container-fondoimg{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/fondonosotros.jpg);
+    background-repeat : no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+.titulo-home{
+    font-size: 5rem;
+    font-weight: bolder;    
+    text-align: center;
+    line-height: 100px;
+}
 
+.texto-home{
+    font-size: 3rem;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 30px;
 }
