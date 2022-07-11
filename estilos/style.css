@@ -46,6 +46,13 @@ header .nav-link {
   line-height: 30px;
 }
 
+.intro-home {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+}
+
 img {
   width: 100%;
 }
@@ -64,10 +71,20 @@ footer p {
   padding-left: 50px;
 }
 
-.tituloRecetas {
-  background-color: #F8FFE5;
-  margin: 20px;
-  padding: 20px;
+.buscador-recetas {
+  background-image: url(../img/fondonosotros.jpg);
+  margin: 35px;
+  padding: 30px;
+}
+.buscador-recetas h2 {
+  text-align: center;
+  font-size: bold;
+}
+
+.intro-recetas {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 25px;
 }
 
 .cards {
@@ -77,14 +94,14 @@ footer p {
   justify-content: center;
   gap: 40px;
   flex-wrap: wrap;
-  margin: 100px auto;
+  margin: 10px auto;
 }
 .cards .card {
-  border: 2px solid black;
-  background-color: white;
+  border: 3px solid #040404;
+  background-color: #F8FFE5;
   text-align: center;
   width: 330px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .contacto {
