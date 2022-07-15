@@ -13,57 +13,89 @@
     <title>Favoritos</title>
 </head>
 
-<body>
-    <header class="container-fluid">
-        <nav>
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="recetas.html">Recetas</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="favoritos.html">Favoritos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="nosotros.html">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">Contacto</a>
-                </li>
-            </ul>
+<body class="d-flex flex-column min-vh-100">
+    <header>
+        <nav class="navbar navbar-expand-md ">
+            <div class="container-fluid">
+                <a class="navbar-brand abs" href="/">
+                    <img class="img-logo" src="../img/logo.png" />
+                    <p class="navbar-title">Recetario</p>
+                </a>
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="collapseNavbar">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./recetas.html">Recetas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./favoritos.html">Favoritos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./registrate.html">
+                                <img class="img-nav-icon" src="../img/login.png" />
+                            </a>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
-        
-        <div class="container-sm p-3">
-            <h3>
-                No agregaste favoritos
-                <small class="text-muted">¡Inicia session o registrate!</small>
-            </h3>
+        <h3 class="text-favoritos">
+            No agregaste favoritos
+            <small class="text-muted">¡Algunas sugerencias!</small>
+        </h3>
+        <div class="container-favoritos">
+            <div class="card" style="width: 20rem;">
+                <img src="../img/gatito.jpg" class="card-img-top" alt="sandwich gatito">
+                <div class="card-body">
+                    <h5 class="card-title">Sandwich gatito</h5>
+                    <p class="card-text">Receta de sandwich, con muy poco tienes un desayuno original y que les encanta
+                        a los niños.</p>
+                    <a href="#" class="btn btn-success">A cocinar!</a>
+                </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+                <img src="../img/monito.jpg" class="card-img-top" alt="Panqueque monito">
+                <div class="card-body">
+                    <h5 class="card-title">Panqueque monito</h5>
+                    <p class="card-text">Receta de panqueques, con muy poco tienes un desayuno original y que les
+                        encanta a los niños.</p>
+                    <a href="#" class="btn btn-success">A cocinar!</a>
+                </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+                <img src="../img/dino.jpg" class="card-img-top" alt="Dino sandwich">
+                <div class="card-body">
+                    <h5 class="card-title">Dino sandwich</h5>
+                    <p class="card-text">Receta de Dino-sandwich, con muy poco tienes un desayuno original y que les
+                        encanta a los niños.</p>
+                    <a href="#" class="btn btn-success">A cocinar!</a>
+                </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+                <img src="../img/olaf.jpg" class="card-img-top" alt="Olaf Frutal">
+                <div class="card-body">
+                    <h5 class="card-title">Olaf Frutal</h5>
+                    <p class="card-text">Receta de Olaf con frutal, con muy poco tienes un desayuno original y que les
+                        encanta a los niños.</p>
+                    <a href="#" class="btn btn-success">A cocinar!e</a>
+                </div>
+            </div>
         </div>
-        <form>
-            <div class="container-sm p-2 mb-3 contacto">
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Recordarme</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Ingresar</button>
-        </form>
-        </div>
+
+
     </main>
 
-    <footer>
-        <div class="footer">
+    <footer class="footer mt-auto">
+        <div>
             <p>Recetario &copy;</p>
         </div>
     </footer>

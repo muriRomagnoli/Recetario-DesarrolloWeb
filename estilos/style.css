@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Nunito:ital,wght@0,200;0,400;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -14,9 +15,35 @@ header {
   padding: 20px;
 }
 header .nav-link {
-  color: black;
+  font-family: "Nunito";
+  color: #506B1C;
   font-size: small;
   font-weight: 400;
+}
+
+.navbar-brand.abs {
+  display: flex;
+  position: absolute;
+  width: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  align-items: center;
+}
+
+.navbar-title {
+  font-family: "Edu VIC WA NT Beginner";
+  font-size: 32px;
+  color: #506B1C;
+}
+
+.img-nav-icon {
+  width: 32px;
+}
+
+.img-logo {
+  width: 100px;
+  height: auto;
 }
 
 .container-fondoimg {
@@ -67,18 +94,23 @@ footer {
   height: 50px;
 }
 footer p {
+  font-family: "Edu VIC WA NT Beginner";
+  color: #506B1C;
   font-size: 20px;
-  padding-left: 50px;
+  margin-top: 10px;
+  text-align: center;
 }
 
 .buscador-recetas {
   background-image: url(../img/fondonosotros.jpg);
-  margin: 35px;
+  margin: 15px;
   padding: 30px;
+  border-radius: 5px;
 }
 .buscador-recetas h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
-  font-size: bold;
+  font-size: medium;
 }
 
 .intro-recetas {
@@ -97,22 +129,148 @@ footer p {
   margin: 10px auto;
 }
 .cards .card {
-  border: 3px solid #040404;
-  background-color: #F8FFE5;
+  border: 3px solid rgb(194, 183, 183);
+  background-color: #f4f4f4;
   text-align: center;
   width: 330px;
   border-radius: 5px;
 }
 
-.contacto {
-  background-color: #F8FFE5;
+.signupFrm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.nosotros {
-  font-size: large;
-  font-weight: 400;
+.form {
+  background-color: white;
+  width: 400px;
+  border-radius: 8px;
+  padding: 20px 40px;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+}
+
+.title {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.inputContainer {
+  position: relative;
+  height: 45px;
+  width: 90%;
+  margin-bottom: 17px;
+}
+
+.input {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #DADCE0;
+  border-radius: 7px;
+  font-size: 16px;
+  padding: 0 20px;
+  outline: none;
+  background: none;
+  z-index: 1;
+}
+
+::-moz-placeholder {
+  color: transparent;
+}
+
+:-ms-input-placeholder {
+  color: transparent;
+}
+
+::placeholder {
+  color: transparent;
+}
+
+.label {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 0 4px;
+  background-color: white;
+  color: #DADCE0;
+  font-size: 16px;
+  transition: 0.5s;
+  z-index: 0;
+}
+
+.submitBtn {
+  display: block;
+  margin-left: auto;
+  padding: 15px 30px;
+  border: none;
   background-color: #FFC43D;
-  padding: 20px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.submitBtn:hover {
+  background-color: #FFC43D;
+  transform: translateY(-2px);
+}
+
+.input:focus + .label {
+  top: -7px;
+  left: 3px;
+  z-index: 10;
+  font-size: 14px;
+  font-weight: 600;
+  color: #FFC43D;
+}
+
+.input:focus {
+  border: 2px solid #FFC43D;
+}
+
+.input:not(:-moz-placeholder-shown) + .label {
+  top: -7px;
+  left: 3px;
+  z-index: 10;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.input:not(:-ms-input-placeholder) + .label {
+  top: -7px;
+  left: 3px;
+  z-index: 10;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.input:not(:placeholder-shown) + .label {
+  top: -7px;
+  left: 3px;
+  z-index: 10;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.bg-imagen {
+  background-image: url(../img/bg.png);
+  background-size: cover;
+}
+
+.container-favoritos {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
   margin: 20px;
-  border-radius: 15px;
+}
+
+.text-favoritos {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
 }/*# sourceMappingURL=style.css.map */

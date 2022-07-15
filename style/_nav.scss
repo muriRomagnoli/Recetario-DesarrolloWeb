@@ -4,8 +4,37 @@ header {
     padding: 20px;
     
     .nav-link{
-        color: black;
+        font-family: $font;
+        color: $color-cinco;
         font-size: small;
         font-weight: 400;
     }
 }
+
+.navbar-brand.abs
+    {
+        display: flex;
+        position: absolute;
+        width: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        align-items: center;
+}
+.navbar-title{
+    font-family: $logo-font;
+    font-size: 32px;
+    color: $color-cinco;
+
+}
+.img-nav-icon{
+    width: 32px;
+}
+
+.img-logo {
+    width: 100px;
+    height: auto;
+}
+
+
+

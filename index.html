@@ -13,33 +13,45 @@
     <title>Recetario</title>
 </head>
 
-<body>
-   <header class="container-fluid">
-        <nav>
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./secciones/recetas.html">Recetas</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./secciones/favoritos.html">Favoritos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./secciones/nosotros.html">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./secciones/contacto.html">Contacto</a>
-                </li>
-            </ul>
+<body class="d-flex flex-column min-vh-100">
+    <header>
+        <nav class="navbar navbar-expand-md ">
+            <div class="container-fluid">
+                <a class="navbar-brand abs" href="/">
+                    <img class="img-logo" src="./img/logo.png" />
+                    <p class="navbar-title">Recetario</p>
+                </a>
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="collapseNavbar">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./secciones/recetas.html">Recetas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./secciones/favoritos.html">Favoritos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./secciones/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./secciones/registrate.html">
+                                <img class="img-nav-icon" src="./img/login.png" />
+                            </a>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <section>
         <div class="container-fondoimg">
-          <h2 class="titulo-home">
-            ¡A cocinar! </h2>
-           <p class="texto-home"> Inspiracion para cada dia. ¡Miles de recetas!</p>
+            <h2 class="titulo-home">
+                ¡A cocinar! </h2>
+            <p class="texto-home"> Inspiracion para cada dia. ¡Miles de recetas!</p>
         </div>
     </section>
     <main>
@@ -56,21 +68,21 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="../img/tofu.jpg" class="d-block w-100" alt="...">
+                        <img src="./img/tofu.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Tofu salteado</h5>
                             <p>Delicioso tofu salteado con vegetales</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="../img/pasta.jpeg" class="d-block w-100" alt="...">
+                        <img src="./img/pasta.jpeg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Pasta bolognesa</h5>
                             <p>Clasica pasta con salsa bolognesa</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="../img/polloLimon.jpg" class="d-block w-100" alt="...">
+                        <img src="./img/polloLimon.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Pollo al limon</h5>
                             <p>Sabroso pollo sazonado</p>
