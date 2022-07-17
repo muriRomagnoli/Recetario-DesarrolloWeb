@@ -17,11 +17,12 @@
     <header>
         <nav class="navbar navbar-expand-md ">
             <div class="container-fluid">
-                <a class="navbar-brand abs" href="/">
-                    <img  class="img-logo" src="../img/logo.png"/>
+                <a class="navbar-brand abs" href="../index.html">
+                    <img class="img-logo" src="../img/logo.png" />
                     <p class="navbar-title">Recetario</p>
                 </a>
-                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavbar">
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse" id="collapseNavbar">
@@ -37,17 +38,20 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./registrate.html">
-                                <img class="img-nav-icon" src="../img/login.png"/>
+                                <img class="img-nav-icon" src="../img/login.png" />
                             </a>
-    
+
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        </header>
+    </header>
     <main>
-        <div class="container-sm pb-3 mb-3 mt-3 contacto">
+        <div class="text-contacto">
+            <h2>¿Alguna duda o sugerencia? <small class="text-muted">Contactanos!</small></h2>
+        </div>
+        <div class="container-contacto">
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Email</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@gmail.com">
@@ -56,12 +60,23 @@
                 <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="submit" class="btn btn-success">Enviar</button>
         </div>
+        <div class="text-contacto">
+            <h4>Seguinos en nuestras redes y enterate las ultimas novedades</h4>
+            <a href="https://www.instagram.com/">
+                <img class="redes" src="../img/instagram.png" /></a>
+            <a href="https://www.facebook.com/">
+                <img class="redes" src="../img/facebook.png" /></a>
+            <a href="https://twitter.com/">
+                <img class="redes" src="../img/twiter.png" /></a>
+        </div>
+
+
     </main>
 
     <footer class="footer mt-auto">
-        <div >
+        <div>
             <p>Recetario &copy;</p>
         </div>
     </footer>
